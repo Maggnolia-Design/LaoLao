@@ -1,0 +1,19 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300|Fredericka+the+Great");
+.index {
+  background-image: url("../img/landing.png");
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+}
+.index h1 {
+  font: 30px "Open Sans" sans-serif;
+}
+.index h2 {
+  font: 52px "Fredericka the Great" serif;
+}
+.index h3 {
+  font: lighter 23px "Open Sans" sans-serif;
+  width: 60px;
+  padding: 8px 40px 8px 40px;
+  background-color: #404756;
+}
