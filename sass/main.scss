@@ -1,21 +1,37 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300|Fredericka+the+Great");
 
 .index {
-   background-image: url("../img/landing.png");
-   background-size: cover;
    color: white;
+   background-image: url("../img/landing-page.jpg");
+   background-size: cover;
    background-repeat: no-repeat;
+   margin: 18% 12% 18% 12%;
    h1 {
-      font: 30px "Open Sans" sans-serif;
+      font: lighter 28px "Open Sans" sans-serif;
+      padding-bottom: 8px;
    }
    h2 {
-      font: 52px "Fredericka the Great" serif;
+      font: 55px "Fredericka the Great" serif;
+      padding-bottom: 70px;
    }
    h3 {
-     font: lighter 23px "Open Sans" sans-serif;
-     width: 60px;
-     padding: 8px 40px 8px 40px;
-     background-color: #404756;
+     font: lighter 21px "Open Sans" sans-serif;
+     width: 53px;
+      a {
+         text-decoration: none;
+         padding: 9px 40px 9px 40px;
+         background: #404756;
+         opacity: 0.6;
+         color: white;
+      }
+      a:hover{
+         background: #404756;
+         opacity: 1;
+      }
+      a:active {
+         background: #eee;
+         opacity: .2;
+         color: black;
+      }
    }
 }
-
