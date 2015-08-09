@@ -1,5 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300|Fredericka+the+Great");
 
+/* ENTER */
+
 .index {
    color: white;
    background-image: url("../img/landing-page.jpg");
@@ -34,4 +36,28 @@
          color: black;
       }
    }
+}
+
+/* CATEGORIES */
+
+.categories {
+   width: 70%;
+   margin-right: 15%;
+   margin-left: 15%;
+   h1 {
+      height: 250px;
+      border: 2px solid red;
+      text-align: center;
+      font: 38px "Open Sans" sans-serif;
+      a {
+         text-decoration: none;
+         color: #ddd;
+         position: relative;
+         top: 110px;
+      }
+   }
+}
+
+h1 {
+   background-color: pink;
 }
