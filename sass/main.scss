@@ -41,7 +41,10 @@
 /* CATEGORIES */
 
 a#meet:link {
-   background: grey;
+   background-image: url("../img/meet.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 
 a#cooking:link {
@@ -49,24 +52,38 @@ a#cooking:link {
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   /*background-attachment: fixed;*/
+   background-attachment: fixed;
 
 }
 
 a#calligraphy:link {
-   background: grey;
+   background-image: url("../img/calli.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 
 a#family:link {
-   background: purple;
+   background-image: url("../img/family.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
 }
 
 a#life:link {
-   background: gold;
+   background-image: url("../img/life.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 
 a#explore:link {
-   background: pink;
+   background-image: url("../img/explore3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
 }
 
 a#contact:link {
@@ -89,7 +106,7 @@ a#contact:link {
          color: #ddd;
          display:block;
          text-align: center;
-         border: 2px solid red;
+         border-top: 2.5px solid silver;
       }
    }
 }
