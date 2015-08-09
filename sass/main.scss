@@ -39,25 +39,46 @@
 }
 
 /* CATEGORIES */
+a#meet:link {
+   background: grey;
+}
+
+a#cooking:link {
+   background: gold;
+}
+
+a#calligraphy:link {
+   background: grey;
+}
+
+a#philosophy:link {
+   background: purple;
+}
+
+a#family:link {
+   background: gold;
+}
 
 .categories {
    width: 70%;
    margin-right: 15%;
    margin-left: 15%;
    h1 {
-      height: 250px;
-      border: 2px solid red;
-      text-align: center;
-      font: 38px "Open Sans" sans-serif;
+      font: 35px "Open Sans" sans-serif;
       a {
+         padding-top: 16vh;
+         padding-bottom: 16vh;
          text-decoration: none;
          color: #ddd;
-         position: relative;
-         top: 110px;
+         display:block;
+         text-align: center;
+         border: 2px solid red;
       }
    }
 }
 
-h1 {
-   background-color: pink;
+a#cooking, a#calligraphy, a#philosophy, a#meet, a#contact{
+   &:hover {
+      background: #111;
+   }
 }
