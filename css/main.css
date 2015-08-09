@@ -42,19 +42,31 @@ a#meet:link {
 }
 
 a#cooking:link {
-  background: gold;
+  background-image: url("../img/cooking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*background-attachment: fixed;*/
 }
 
 a#calligraphy:link {
   background: grey;
 }
 
-a#philosophy:link {
+a#family:link {
   background: purple;
 }
 
-a#family:link {
+a#life:link {
   background: gold;
+}
+
+a#explore:link {
+  background: pink;
+}
+
+a#contact:link {
+  background: blue;
 }
 
 .categories {
@@ -62,12 +74,15 @@ a#family:link {
   margin-right: 15%;
   margin-left: 15%;
 }
+.categories > main {
+  background-color: black;
+}
 .categories h1 {
   font: 35px "Open Sans" sans-serif;
 }
 .categories h1 a {
-  padding-top: 16vh;
-  padding-bottom: 16vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   text-decoration: none;
   color: #ddd;
   display: block;
@@ -75,6 +90,19 @@ a#family:link {
   border: 2px solid red;
 }
 
-a#cooking:hover, a#calligraphy:hover, a#philosophy:hover, a#meet:hover, a#contact:hover {
-  background: #111;
+a#meet:hover, a#cooking:hover, a#calligraphy:hover, a#family:hover, a#life:hover, a#explore:hover, a#contact:hover {
+  opacity: 0.6;
 }
+
+/* FOOTER
+
+footer {
+   position: relative;
+   bottom: 0;
+   left: -12%;
+   height: 50px;
+   width: 100vw;
+   background-color: black;
+}
+
+*/
