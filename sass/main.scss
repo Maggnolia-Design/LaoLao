@@ -98,14 +98,15 @@ a#contact:link {
 //      background-color: black;
    }
    h1 {
-      font: 35px "Open Sans" sans-serif;
+      font: 42px "Open Sans" sans-serif;
       a {
-         padding-top: 50vh;
-         padding-bottom: 50vh;
+         padding-top: 33vh;
+         padding-bottom: 66vh;
          text-decoration: none;
          color: white;
          display:block;
-         text-align: center;
+         padding-left: 66%;
+         text-shadow: 2px 2px 10px #000;
       }
    }
 }
