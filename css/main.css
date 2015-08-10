@@ -91,9 +91,6 @@ a#contact:link {
   margin-right: 15%;
   margin-left: 15%;
 }
-.categories > main {
-  background-color: black;
-}
 .categories h1 {
   font: 35px "Open Sans" sans-serif;
 }
@@ -101,14 +98,14 @@ a#contact:link {
   padding-top: 15vh;
   padding-bottom: 15vh;
   text-decoration: none;
-  color: #ddd;
+  color: white;
   display: block;
   text-align: center;
   border-top: 2.5px solid silver;
 }
 
 a#meet:hover, a#cooking:hover, a#calligraphy:hover, a#family:hover, a#life:hover, a#explore:hover, a#contact:hover {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 /* FOOTER
