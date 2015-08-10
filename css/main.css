@@ -87,21 +87,20 @@ a#contact:link {
 }
 
 .categories {
-  width: 70%;
-  margin-right: 15%;
-  margin-left: 15%;
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 .categories h1 {
   font: 35px "Open Sans" sans-serif;
 }
 .categories h1 a {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
   text-decoration: none;
   color: white;
   display: block;
   text-align: center;
-  border-top: 2.5px solid silver;
 }
 
 a#meet:hover, a#cooking:hover, a#calligraphy:hover, a#family:hover, a#life:hover, a#explore:hover, a#contact:hover {
