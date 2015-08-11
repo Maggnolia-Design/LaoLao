@@ -82,30 +82,37 @@ a#explore:link {
   background-attachment: fixed;
 }
 
-a#contact:link {
-  background: blue;
-}
-
 .categories {
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 76%;
+  margin-right: 12%;
+  margin-left: 12%;
 }
 .categories h1 {
   font: 42px "Open Sans" sans-serif;
 }
 .categories h1 a {
-  padding-top: 33vh;
-  padding-bottom: 66vh;
+  padding-top: 10%;
+  padding-bottom: 20%;
   text-decoration: none;
   color: white;
   display: block;
   padding-left: 66%;
-  text-shadow: 2px 2px 10px #000;
+  text-shadow: 2px 2px 10px #222;
 }
 
-a#meet:hover, a#cooking:hover, a#calligraphy:hover, a#family:hover, a#life:hover, a#explore:hover, a#contact:hover {
-  opacity: 0.3;
+footer {
+  height: 90vh;
+  padding-top: 10%;
+  padding-left: 10%;
+  background-color: #eef;
+}
+footer h2 {
+  font: 24px "Open Sans" sans-serif;
+  padding-bottom: 8px;
+}
+
+a#meet:hover, a#cooking:hover, a#calligraphy:hover, a#family:hover, a#life:hover, a#explore:hover {
+  opacity: 0.6;
 }
 
 /* FOOTER
