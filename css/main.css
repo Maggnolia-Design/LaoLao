@@ -129,11 +129,18 @@ footer h2 {
 }
 
 /* COMMENTS */
-div .fa-comments-o {
-  margin-left: 8%;
-  margin-top: 12%;
+div {
+  width: 270px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 40px;
 }
 div > p {
   font: 16px "Open Sans" sans-serif;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  opacity: 0;
+  transition: 1s;
+}
+div:hover p {
+  opacity: 1;
 }

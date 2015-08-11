@@ -145,12 +145,20 @@ footer {
 /* COMMENTS */
 
 div {
-   .fa-comments-o {
-      margin-left: 8%;
-      margin-top: 12%
-   }
+   width: 270px;
+   float: left;
+   margin-left: 80px;
+   margin-top: 40px;
    >p {
       font: 16px "Open Sans" sans-serif;
-      padding-bottom: 20px;
+      padding-top: 20px;
+      opacity: 0;
+      transition: 1s;
+   }
+   &:hover {
+      p {
+         opacity: 1
+      }
    }
 }
+
