@@ -47,9 +47,9 @@ a#meet:link {
 a#cooking:link {
   background-image: url("../img/cooking.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   background-attachment: fixed;
+  background-size: 75% auto;
+  background-position: center;
 }
 
 a#calligraphy:link {
@@ -62,8 +62,8 @@ a#calligraphy:link {
 a#family:link {
   background-image: url("../img/family.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 75% auto;
+  background-position: 50% 45%;
   background-attachment: fixed;
 }
 
@@ -71,21 +71,21 @@ a#life:link {
   background-image: url("../img/life.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 57%;
 }
 
 a#explore:link {
   background-image: url("../img/explore3.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 95% auto;
   background-position: center;
   background-attachment: fixed;
 }
 
 .categories {
-  width: 76%;
-  margin-right: 12%;
-  margin-left: 12%;
+  width: 74%;
+  margin-right: 13%;
+  margin-left: 13%;
 }
 .categories h1 {
   font: 42px "Open Sans" sans-serif;
