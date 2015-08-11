@@ -106,17 +106,6 @@ a#explore:link {
    }
 }
 
-footer {
-   height: 90vh;
-   padding-top: 10%;
-   padding-left: 10%;
-   background-color: #eef;
-   h2 {
-      font: 24px "Open Sans" sans-serif;
-      padding-bottom: 8px;
-   }
-}
-
 
 a#meet, a#cooking, a#calligraphy, a#family, a#life, a#explore {
    &:hover {
@@ -127,7 +116,7 @@ a#meet, a#cooking, a#calligraphy, a#family, a#life, a#explore {
 }
 
 
-/* FOOTER
+/*
 
 footer {
    position: relative;
@@ -139,3 +128,29 @@ footer {
 }
 
 */
+
+/* FOOTER */
+
+footer {
+   height: 90vh;
+   padding-top: 10%;
+   padding-left: 10%;
+   background-color: #eef;
+   h2 {
+      font: 24px "Open Sans" sans-serif;
+      padding-bottom: 5px;
+   }
+}
+
+/* COMMENTS */
+
+div {
+   .fa-comments-o {
+      margin-left: 8%;
+      margin-top: 12%
+   }
+   >p {
+      font: 16px "Open Sans" sans-serif;
+      padding-bottom: 20px;
+   }
+}

@@ -100,22 +100,11 @@ a#explore:link {
   text-shadow: 2px 2px 10px #222;
 }
 
-footer {
-  height: 90vh;
-  padding-top: 10%;
-  padding-left: 10%;
-  background-color: #eef;
-}
-footer h2 {
-  font: 24px "Open Sans" sans-serif;
-  padding-bottom: 8px;
-}
-
 a#meet:hover, a#cooking:hover, a#calligraphy:hover, a#family:hover, a#life:hover, a#explore:hover {
   opacity: 0.6;
 }
 
-/* FOOTER
+/*
 
 footer {
    position: relative;
@@ -127,3 +116,24 @@ footer {
 }
 
 */
+/* FOOTER */
+footer {
+  height: 90vh;
+  padding-top: 10%;
+  padding-left: 10%;
+  background-color: #eef;
+}
+footer h2 {
+  font: 24px "Open Sans" sans-serif;
+  padding-bottom: 5px;
+}
+
+/* COMMENTS */
+div .fa-comments-o {
+  margin-left: 8%;
+  margin-top: 12%;
+}
+div > p {
+  font: 16px "Open Sans" sans-serif;
+  padding-bottom: 20px;
+}
